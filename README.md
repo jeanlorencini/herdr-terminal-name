@@ -2,9 +2,11 @@
 
 [Português brasileiro](README.pt-BR.md)
 
+![Copy a terminal reference in Herdr and point your AI to the right terminal](assets/terminal-name.gif)
+
 Point your AI agent to the right terminal without running a command. A small native header badge shows the exact Herdr Core reference, such as **`t58`**. Existing native terminal names appear beside it. Click the badge to copy the reference, then say: **“Read terminal t58.”**
 
-![Terminal Name running in Herdr with demo terminals](preview.png)
+[View the full-size screenshot](preview.png).
 
 ## Install with your agent
 
@@ -63,7 +65,7 @@ Herdr App 0.1.15 exposes no documented UI-locale preference to mods, so this rel
 
 Tested on Windows with **Herdr App 0.1.15**. The source uses native `gpui-kit`, `gpui-base` and `herdr` APIs. Linux, macOS, other releases, light themes and live remote machines have not been visually validated. Very narrow headers may have insufficient space for an unusually long remote address.
 
-Focused tests exercise both languages, exact reference copying, remote addresses, native names, metadata updates, controls and status rendering. They use inert elements and a mock clipboard. Native mod checks and live screenshots were also inspected. Physical mouse activation, keyboard navigation and real tooltip display have not been automated. The preview uses real, temporary demo terminals in a simplified presentation layout; the mod does not install that layout or rename your terminals.
+Focused tests exercise both languages, exact reference copying, remote addresses, native names, metadata updates, controls and status rendering. They use inert elements and a mock clipboard. Native mod checks and live screenshots were also inspected. The animated demo additionally records a real Windows mouse click, the native tooltip and copy confirmation; the copied reference was checked against the clipboard. Keyboard navigation has not been automated. The preview uses real, temporary demo terminals in a simplified presentation layout; the mod does not install that layout or rename your terminals.
 
 For development only, use Node.js 22 or newer:
 
@@ -71,7 +73,7 @@ For development only, use Node.js 22 or newer:
 npm test
 ```
 
-There are no npm dependencies. See [RECIPE.md](RECIPE.md) for a rebuild brief and [CHANGELOG.md](CHANGELOG.md) for changes. A GIF is not included in this release.
+There are no npm dependencies. See [RECIPE.md](RECIPE.md) for a rebuild brief and [CHANGELOG.md](CHANGELOG.md) for changes.
 
 ## License and credits
 

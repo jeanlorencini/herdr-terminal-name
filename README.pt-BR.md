@@ -2,9 +2,11 @@
 
 [English](README.md)
 
+![Copie a referência no Herdr e indique o terminal certo à IA](assets/terminal-name.gif)
+
 Indique o terminal certo à IA sem executar comandos. Um selo discreto no cabeçalho mostra a referência exata do Herdr Core, como **`t58`**. Se o terminal já tiver nome nativo, ele aparece junto. Clique no selo para copiar e diga: **“Leia o terminal t58.”**
 
-![Terminal Name no Herdr, com terminais de demonstração](preview.pt-BR.png)
+[Ver captura em português em tamanho completo](preview.pt-BR.png).
 
 ## Instalar com sua IA
 
@@ -61,9 +63,9 @@ O Herdr App 0.1.15 não documenta uma preferência de idioma acessível aos mods
 
 Testado no Windows com **Herdr App 0.1.15**. Linux, macOS, outras versões, tema claro e máquinas remotas reais não tiveram validação visual. Endereços remotos muito longos podem não caber num cabeçalho extremamente estreito.
 
-Os testes focados cobrem os dois idiomas, cópia exata, nomes, remotos, metadados, controles e status, com elementos inertes e clipboard substituto. Também foram examinados o check nativo e capturas reais. Clique físico, teclado e tooltip real não foram automatizados. As imagens usam terminais temporários de demonstração num layout simplificado; esse layout não é instalado pelo mod.
+Os testes focados cobrem os dois idiomas, cópia exata, nomes, remotos, metadados, controles e status, com elementos inertes e clipboard substituto. Também foram examinados o check nativo e capturas reais. O GIF também registra um clique real no Windows, o tooltip nativo e a confirmação de cópia; a referência copiada foi conferida no clipboard. A navegação por teclado não foi automatizada. As imagens usam terminais temporários de demonstração num layout simplificado; esse layout não é instalado pelo mod.
 
-Para desenvolver, use Node.js 22 ou superior e execute `npm test`. Não há dependências npm. A receita canônica está em [RECIPE.md](RECIPE.md), em inglês. Veja [CHANGELOG.md](CHANGELOG.md). O GIF ficará para uma tarefa posterior.
+Para desenvolver, use Node.js 22 ou superior e execute `npm test`. Não há dependências npm. A receita canônica está em [RECIPE.md](RECIPE.md), em inglês. Veja [CHANGELOG.md](CHANGELOG.md).
 
 ## Licença e créditos
 
