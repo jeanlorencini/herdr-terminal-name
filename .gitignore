@@ -1,0 +1,9 @@
+node_modules/
+*.error
+*.log
+*.tmp
+gpui-kit.d.ts
+herdr.d.ts
+jsconfig.json
+.DS_Store
+Thumbs.db

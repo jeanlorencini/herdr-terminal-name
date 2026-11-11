@@ -1,0 +1,12 @@
+{
+  "name": "herdr-terminal-name",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Native Herdr pane headers with copyable terminal references and names, in English and Brazilian Portuguese.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

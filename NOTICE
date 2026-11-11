@@ -1,0 +1,16 @@
+Terminal Name for Herdr
+
+This mod is an independent adaptation of the Herdr App native pane header:
+https://github.com/herdrdev/herdr-app/tree/master/defaults/mods/pane
+Herdr App is licensed under the Apache License, Version 2.0.
+
+Modifications by Jean Lorencini, 2026:
+- Exact terminal reference badge and explicit clipboard action.
+- Existing native terminal names in the header title.
+- English and Brazilian Portuguese messages selected through header props.
+- Local spinner asset and portable focused tests.
+
+The included SVG glyphs originate from Herdr's shipped mods and are covered
+by the Lucide/Feather notices reproduced in licenses/LICENSE-Lucide.txt.
+
+This community mod is not an official Herdr product or endorsement.
